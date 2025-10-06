@@ -28,7 +28,7 @@ Create a GitHub repository (name it something like MLOps_Lab1).
 Clone it locally.
 
 Inside your repo, create the following structure:
-
+```
 Lab1/
 ├── data/
 ├── src/
@@ -39,7 +39,7 @@ Lab1/
 ├── workflows/
 ├── requirements.txt
 └── README.md
-
+```
 ### Step 3: Implementing the Word Counter in main.py
 
 The main logic is implemented in src/main.py
@@ -57,20 +57,20 @@ test/test_unittest.py checks the same logic with the unittest framework
 Make sure you’re inside the Lab1 directory before running tests.
 
 Run Pytest
-''' 
+```
     pytest -v
-'''    
+```   
 
 Run Unittest
-'''
+```
     python -m unittest discover -s test -v
-'''
+```
 
 ### Step 6: Running the Program Manually
 
 You can test your program directly with:
-'''
+```
     python src/main.py
-'''    
+```   
 
 
