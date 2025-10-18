@@ -3,23 +3,21 @@ A tiny Python project that implements a word_count function and tests it with bo
 
 # Project Structure
 ```
-MLOps_gitlab1-main/
+MLOps_gitlab1/
 ├─ .github/
 │  └─ workflows/
-│     ├─ pytest.yml            # CI: run pytest on push/PR
-│     └─ unittest.yml          # (optional) run unittest via GitHub Actions
+│     ├─ pytest.yml            
+│     └─ unittest.yml          
 │
 ├─ src/
 │  ├─ __init__.py
-│  └─ main.py                  # word_count() + __main__ demo
+│  └─ main.py                 
 │
 ├─ test/
 │  ├─ __init__.py
 │  ├─ test_pytest.py           # pytest tests
 │  └─ test_unittest.py         # unittest tests
-│
-├─ data/
-│  └─ __init__.py              # placeholder (unused in Lab 1)
+│           
 │
 ├─ requirements.txt            # only: pytest
 ├─ README.md
@@ -33,7 +31,7 @@ MLOps_gitlab1-main/
 ## ⚙️ Setup Instructions  
 
 ### 1️⃣ Create and Activate Virtual Environment
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate       # macOS/Linux
 # OR (Windows)
@@ -60,7 +58,10 @@ pytest -v
 ```
 pytest test/test_pytest.py -v
 ```
-
+## Run only unittest tests
+```
+pytest test/test_unittest.py -v
+```
 
 ## ✅ Expected Output
 
