@@ -21,7 +21,7 @@ MLOps_gitlab1/
 │
 ├─ requirements.txt            # only: pytest
 ├─ README.md
-└─ .venv/                      # local venv (do not commit)
+└─ .venv                     
 
 ```
 
